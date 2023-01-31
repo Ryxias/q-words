@@ -1,0 +1,25 @@
+{
+    "name": "q-words",
+    "version": "0.0.1",
+    "description": "A... secret project developed for... reasons",
+    "main": "index.js",
+    "scripts": {
+        "build": "npm run tsc",
+        "lint": "./node_modules/tslint/bin/tslint -c tslint.json src/**/*.ts",
+        "lintfix": "npm run fmt",
+        "fmt": "./node_modules/tslint/bin/tslint -c tslint.json src/**/*.ts --fix",
+        "tsc": "tsc --p tsconfig.json",
+        "test": "./node_modules/mocha/bin/mocha.js",
+        "start": "node dist/index.js"
+    },
+    "author": "Derek Wang",
+    "license": "ISC",
+    "dependencies": {
+        "typescript": "^4.9.5"
+    },
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
+        "tslint": "^6.1.3"
+    }
+}
