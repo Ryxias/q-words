@@ -2,7 +2,6 @@ import { Dictionary } from "./dictionary";
 import { StringPermuter } from "./stringcombo";
 
 
-
 export class DictionaryWordFinder {
     private dictionary: Dictionary;
     private permuter: StringPermuter;
@@ -16,7 +15,7 @@ export class DictionaryWordFinder {
      * Accepts a single string as input, and returns a list of dictionary words
      * that can be created using some combination of the letters in the input
      * string.
-     * 
+     *
      * Uses the given Dictionary to determine which word(s) are valid.
      */
     * find(input: string): Generator<string> {
@@ -32,6 +31,6 @@ export class DictionaryWordFinder {
             if (this.dictionary.lookup(combination)) {
                 yield combination;
             }
-        }   
+        }
     }
 }

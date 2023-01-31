@@ -26,7 +26,7 @@ function main() {
     ];
 
     const finderService = buildFinder(WORDS);
-    
+
     console.log("===============");
     console.log("For the input: ", INPUT);
     console.log("The dictionary word combinations: ");
