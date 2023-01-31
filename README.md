@@ -21,7 +21,7 @@ npm install --include=dev
 ```
 
 ## Usage
-Here we provide bare bones way of running the given test case in the
+Here we provide bare bones way of running the given test case in the question prompt email:
 
 ```
 npm run build

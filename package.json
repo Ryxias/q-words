@@ -2,7 +2,7 @@
     "name": "q-words",
     "version": "0.0.1",
     "description": "A... secret project developed for... reasons",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "build": "npm run tsc",
         "lint": "./node_modules/tslint/bin/tslint -c tslint.json src/**/*.ts",
